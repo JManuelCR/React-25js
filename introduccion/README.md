@@ -86,5 +86,38 @@ Toda la eab ocupa HTML, CSS y Javascript
 # Documentacion de React react.dev
     Ir a learn
     Tambien visitar la parte de reference
-    
+
+## Frameworks
+
+    React
+        Next
+        Remix
+        svelt kit
+        nux
+        astro; herrmienta para crear diferemtes paginas a la vez
+        gatsby
+        lit  
+
+    Angular
+        No tiene frameworks
+
+# Como iniciar un proyecto en react
+    se puede crear de varias maneras
+        Create react tab, puede se un poco lenta una aplicacion creada de esta manera
+        Crearlo con la instalacion de react como instalar bootstrap
+        Ir a la documentaccion de react
+            start a new react project
+
+                usaremos vite
+                    entremos a la pagina vite.dev
+                        internamente vite es ta ocupando rolob
+                    usaremos preact que es un poco mas rapido que react pero cambia un poco el codigo
+                        Usaremos el codigo
+                            npm create vite@lastest
+
+                            el paquete es vite y especificamos la version que queremos usar de ese paquete
+                        
+
+        
+        
 
