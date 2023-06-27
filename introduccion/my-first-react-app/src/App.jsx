@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import KoderCard, { PI } from "./components/KoderCard";
+import { koders } from "./data/koders"
 
-function App() {
-  const [count, setCount] = useState(0)
 
+
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <p>Lista de koders</p>
 
-export default App
+      <section className="kodersList">
+        {
+          koders.map( (x, inx) => {
+            return (
+              <KoderCard  
+              key = { `koder-card-${inx}`} // identificador para el id de react
+              firstName= {x.firstName} 
+              lastName = {x.lastName} 
+              isActive = {x.isActive}
+              skills = {x.skills}
+              />
+            )
+          })
+        }
+      </section>
+    </>
+  );
+}

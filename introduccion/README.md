@@ -113,11 +113,22 @@ Toda la eab ocupa HTML, CSS y Javascript
                         internamente vite es ta ocupando rolob
                     usaremos preact que es un poco mas rapido que react pero cambia un poco el codigo
                         Usaremos el codigo
-                            npm create vite@lastest
+                            npm create vite@latest
 
                             el paquete es vite y especificamos la version que queremos usar de ese paquete
-                        
+# -------------------------- Hay dos clases atras --------------------------------------++
+# deshabilitar el error de eslint propTypes
+    Ir al archivo eslintrc
+        ir a rules
+        crear una nueba regla de
+             react/prop-types: off
+# ESModules
+    import/export
 
+    se puede usar commonJS con require, export
+    Sin embargo para el JS actual se utiliza import y export
+    Podemo exportar una cosa por defecto, es por ello que usamos default para hacer una importacion simple
+              
         
         
 
