@@ -116,6 +116,22 @@ Toda la eab ocupa HTML, CSS y Javascript
                             npm create vite@latest
 
                             el paquete es vite y especificamos la version que queremos usar de ese paquete
+
+# Componentes de react 
+Los comoponentes de react deben de empezar con mayusculas esto como regla de creacion de componentes
+
+# Etiqueta vacia
+No es necesario todo el tiempo
+Es un elemento especial en react, los componentes pueden regresar solo un elemento, por ello si queremos regreasr vairos elementos, los englobamos en una etiqueta vacia, o un react fracments. Para regresarlas sin renderizar el elemento.
+Por ejemplo, lo podemos rendecizar entro de un div pero seria inecesario 
+porque podemos utilizar los fracgments
+
+# Los componentes pueden regrear solamente un elemento
+
+# Retornar varias lineas
+    return parentesis y dentro de los parentesis podemos poner lo que queremos regrear
+
+
 # -------------------------- Hay dos clases atras --------------------------------------++
 # deshabilitar el error de eslint propTypes
     Ir al archivo eslintrc
