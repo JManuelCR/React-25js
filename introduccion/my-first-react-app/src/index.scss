@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
 .koder {
   background-color: black;
   display: flex;
@@ -26,4 +30,10 @@
 .kodersList {
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+
+.title{
+  font-size: 4rem;
+  color: rgba(0, 255, 51, 0.785);
+  font-style: italic;
 }

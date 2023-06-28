@@ -6,7 +6,7 @@ import { koders } from "./data/koders"
 export default function App() {
   return (
     <>
-      <p>Lista de koders</p>
+      <h1 className="title">Lista de koders</h1>
 
       <section className="kodersList">
         {

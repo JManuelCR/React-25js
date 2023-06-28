@@ -17,7 +17,7 @@ export default function KoderCard(props) {
 
       {props.isActive ? <p> Online </p> : <p> Offline </p>}
       {
-        props.map((skill,inx) => {
+        props.skills.map((skill,inx) => {
           return(
             <p key={`skill-${inx}`}>
               {skill}

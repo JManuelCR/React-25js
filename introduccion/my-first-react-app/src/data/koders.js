@@ -4,5 +4,5 @@ export const koders = [
     { firstName: "Christian", lastName: "Beltran", isActive: true, skills: ['sass']},
     { firstName: "Luis", lastName: "Olvera", isActive: true, skills: ['angular']},  
     { firstName: "Manuel", lastName: "Cabrera", isActive: false, skills: ['html']},  
-  ]
+]
   
