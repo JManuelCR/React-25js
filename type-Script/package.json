@@ -1,0 +1,15 @@
+{
+  "name": "type-script",
+  "version": "1.0.0",
+  "description": "Lengujae tipado Ayudda a JavaScript a gragar tipado Podemos hacer tipado de los arreglos     JavaScript es el lenguaje base y typescript es un super-set de javascript     No es nada nuevo, solo agrega alguna posibilidades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
